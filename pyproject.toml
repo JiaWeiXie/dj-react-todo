@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dj-react-todo"
+version = "0.1.0"
+description = ""
+authors = ["jasonxie <x5758x@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "<4.0"
+djangorestframework = "^3.14.0"
+django-vite = "^2.0.2"
+whitenoise = "^6.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
